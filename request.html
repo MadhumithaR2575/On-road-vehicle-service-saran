@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Request Service</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+
+<h1 style="text-align:center;">Request Roadside Assistance</h1>
+
+<form id="serviceForm">
+
+<label>Name</label>
+<input type="text" id="name" required>
+
+<label>Mobile Number</label>
+<input type="tel" required>
+
+<label>Vehicle Type</label>
+<select>
+<option>Bike</option>
+<option>Car</option>
+<option>Truck</option>
+</select>
+
+<label>Problem</label>
+<select>
+<option>Puncture</option>
+<option>Battery Issue</option>
+<option>Engine Issue</option>
+<option>Fuel Empty</option>
+</select>
+
+<label>Location</label>
+<input type="text" required>
+
+<button type="submit">Submit Request</button>
+
+</form>
+
+<div id="message"></div>
+
+</body>
+</html>
